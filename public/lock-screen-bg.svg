@@ -1,0 +1,90 @@
+<svg width="1280" height="1024" viewBox="0 0 1280 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8c6d9" />
+      <stop offset="100%" stop-color="#88a8bc" />
+    </linearGradient>
+    
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <radialGradient id="dropGradient" cx="50%" cy="50%" r="50%" fx="35%" fy="35%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.95)" />
+      <stop offset="70%" stop-color="rgba(255, 255, 255, 0.5)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.1)" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="1024" fill="url(#bgGradient)" />
+  
+  <!-- Water droplets - large -->
+  <circle cx="120" cy="200" r="35" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="320" cy="120" r="25" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="520" cy="250" r="30" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="700" cy="180" r="23" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="850" cy="300" r="28" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1000" cy="150" r="22" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1150" cy="220" r="33" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  
+  <!-- Water droplets - medium -->
+  <circle cx="200" cy="350" r="18" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="400" cy="280" r="15" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="600" cy="380" r="20" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="800" cy="420" r="16" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="950" cy="330" r="14" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1100" cy="400" r="17" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  
+  <!-- Water droplets - small -->
+  <circle cx="150" cy="500" r="10" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="280" cy="450" r="8" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="430" cy="520" r="7" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="550" cy="480" r="9" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="670" cy="540" r="6" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="780" cy="500" r="10" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="900" cy="560" r="8" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1020" cy="520" r="7" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1140" cy="580" r="9" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  
+  <!-- More random droplets -->
+  <circle cx="100" cy="600" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="220" cy="580" r="4" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="340" cy="620" r="6" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="460" cy="590" r="3" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="580" cy="630" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="700" cy="610" r="4" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="820" cy="650" r="6" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="940" cy="620" r="3" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1060" cy="660" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1180" cy="640" r="4" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  
+  <circle cx="180" cy="700" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="300" cy="680" r="4" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="420" cy="720" r="6" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="540" cy="690" r="3" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="660" cy="730" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="780" cy="710" r="4" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="900" cy="750" r="6" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1020" cy="720" r="3" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1140" cy="760" r="5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  
+  <!-- Additional tiny droplets -->
+  <circle cx="150" cy="800" r="2" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="270" cy="780" r="2.5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="390" cy="820" r="2" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="510" cy="790" r="2.5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="630" cy="830" r="2" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="750" cy="810" r="2.5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="870" cy="850" r="2" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="990" cy="820" r="2.5" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+  <circle cx="1110" cy="860" r="2" fill="url(#dropGradient)" filter="url(#dropShadow)" />
+</svg> 
