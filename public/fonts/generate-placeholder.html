@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Font Placeholder</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        h1 {
+            color: #333;
+        }
+        .note {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Helvetica Neue Medium Font Placeholder</h1>
+        
+        <div class="note">
+            <strong>Note:</strong> Helvetica Neue Medium is a licensed font owned by Monotype Imaging Holdings Inc.
+            You need to legally acquire this font to use it in your project.
+        </div>
+        
+        <h2>How to get Helvetica Neue Medium:</h2>
+        <ol>
+            <li>Purchase a license from <a href="https://www.myfonts.com/collections/helvetica-font-linotype">MyFonts</a> or similar font provider</li>
+            <li>If you already own the font through macOS, you can export it using a font management tool</li>
+            <li>Place the .woff and .woff2 files in this directory</li>
+        </ol>
+        
+        <h2>Alternative Approach:</h2>
+        <p>If you cannot obtain Helvetica Neue Medium, you can use similar system fonts by updating the CSS:</p>
+        <pre>
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+        </pre>
+        
+        <p>For iOS-like interfaces, you can use "SF Pro" if available or other alternatives like "Inter" or "Roboto".</p>
+    </div>
+</body>
+</html> 

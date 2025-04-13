@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# iPad Calculator
+
+A web application that recreates the old iPad OS interface with a functional calculator app.
+
+## Features
+
+- Classic iPad OS interface with icons and dock
+- Fully functional calculator app with basic operations
+- Responsive design that works on different screen sizes
+- Realistic iPad visual styling with blur effects and animations
+
+## Technologies Used
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to Use
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Click on the Calculator app icon to open the calculator
+- Perform basic calculations (addition, subtraction, multiplication, division)
+- Click the X button to close the calculator
+- The interface mimics the classic iPad OS with a dock at the bottom
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+This project demonstrates how to create realistic interface replicas using React and CSS. The calculator functionality is implemented using React state management.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🌟 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[View the iPad Calculator App](https://ipad-calculator.vercel.app)
 
-## Deploy on Vercel
+### ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clean, minimalist design inspired by iOS
+- Responsive layout optimized for iPad
+- Standard and scientific calculation modes
+- History of calculations
+- Gesture controls for common operations
+- Dark/light mode support
+- Haptic feedback
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🛠️ Built With
+
+- React
+- TailwindCSS
+- Framer Motion for animations
+- TypeScript
+- Vite
+
+### 📸 Screenshots
+
+![Calculator in Light Mode](screenshots/light-mode.png)
+![Calculator in Dark Mode](screenshots/dark-mode.png)
+![Calculator History View](screenshots/history-view.png)
+
+### 📋 Project Prompt
+
+This project was created for the Frontend UI Hackathon 2025 #2 based on the prompt:
+
+> **Calculator App for iPad**: Create a beautiful, functional calculator app specifically designed for the iPad's larger screen. Include both standard and scientific calculation features with an elegant, intuitive interface.
+
+### 🧠 Design Decisions
+
+- Used a grid-based layout to maximize screen real estate on iPad
+- Incorporated subtle animations for button presses to enhance user experience
+- Designed with accessibility in mind, including keyboard navigation
+- Implemented a history panel that slides in from the side
+
+### 👨‍💻 About the Developer
+
+[Your Name] - Frontend developer passionate about creating beautiful, functional interfaces that delight users.
+
+### 📄 License
+
+MIT
+
+---
+
+*This project was submitted to the Frontend UI Hackathon 2025 #2. For more information about the hackathon, visit [the official hackathon page](https://bit.ly/uihacksprompts).*
